@@ -1,0 +1,21 @@
+<!doctype html>
+<html>
+<head>
+    <title>Replacing container contents bug test case</title>
+</head>
+<body>
+
+    <div id="sampleAppContainer">
+        <div>Here is the content, that was before rendering</div>
+    </div>
+
+    <script src="node_modules/inferno/dist/inferno-dom.min.js"></script>
+
+    <script>
+        InfernoDOM.render({
+            tag: 'div',
+            children: 'Here is the rendering result, that should be replaced, but isn`t'
+        }, document.getElementById('sampleAppContainer'));
+    </script>
+</body>
+</html>
