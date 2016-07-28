@@ -1,0 +1,33 @@
+{
+  "name": "inferno-testcases",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "npm i && babel router-link.js --out-file router-link.compiled.js && node router-link.compiled.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/edoroshenko/inferno-testcases.git"
+  },
+  "author": "edoroshenko",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/edoroshenko/inferno-testcases/issues"
+  },
+  "homepage": "https://github.com/edoroshenko/inferno-testcases#readme",
+  "dependencies": {
+    "inferno": "0.7.23",
+    "inferno-component": "0.7.23",
+    "inferno-create-element": "0.7.24",
+    "inferno-dom": "0.7.23",
+    "inferno-redux": "0.7.24",
+    "inferno-router": "0.7.24",
+    "inferno-server": "0.7.23"
+  },
+  "devDependencies": {
+    "babel-cli": "6.11.4",
+    "babel-plugin-inferno": "0.7.7",
+    "babel-preset-es2015": "6.9.0"
+  }
+}
